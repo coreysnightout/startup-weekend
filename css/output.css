@@ -11,20 +11,15 @@
 #footer {
   height: 3vh; }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.wireframe-100, #footer, #learn-network, #event-finder, #intro-panels, #schedule, #get-started, #attendee-faq, #notable-startups, #startup-weekend, #current-location, #partners, #contact-us, #techstars {
-  border: 1px dotted black;
-  width: 100%; }
-
 .container {
   padding: 0;
   margin: 0; }
+
+#learn-network {
+  background-image: url(../img/sw-hero-home.png);
+  padding: 4%; }
+  #learn-network p {
+    color: white; }
 
 #event-finder {
   height: 17.5vh; }
@@ -59,7 +54,19 @@
 #techstars {
   height: 17vh; }
 
-.home-pic {
+.home-head {
+  color: white;
+  font-weight: bold; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wireframe-100, #footer, #learn-network, #event-finder, #intro-panels, #schedule, #get-started, #attendee-faq, #notable-startups, #startup-weekend, #current-location, #partners, #contact-us, #techstars {
+  border: 1px dotted black;
   width: 100%; }
 
 /*# sourceMappingURL=output.css.map */

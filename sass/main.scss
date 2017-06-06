@@ -1,70 +1,9 @@
 
 
-@import 'layout/navbar';
+@import 'layout/layout';
 @import 'base/base';
 @import 'components/components';
 @import 'themes/themes';
 @import 'utilities/utilities';
 @import 'vendors/vendors';
 @import 'pages/pages';
-
-
-.container {
-  padding: 0;
-  margin: 0;
-}
-
-#learn-network {
-  @extend .wireframe-100;
-
-}
-
-#event-finder {
-  @extend .wireframe-100;
-  height: 17.5vh;
-}
-
-#intro-panels {
-  @extend .wireframe-100;
-  height: 150vh;
-}
-#schedule {
-  @extend .wireframe-100;
-  height: 200vh;
-}
-#get-started {
-  @extend .wireframe-100;
-  height: 20vh;
-}
-#attendee-faq {
-  @extend .wireframe-100;
-  height: 100vh;
-}
-#notable-startups {
-  @extend .wireframe-100;
-  height: 50vh;
-}
-#startup-weekend {
-  @extend .wireframe-100;
-  height: 70vh;
-}
-#current-location {
-  @extend .wireframe-100;
-  height: 20vh;
-}
-#partners {
-  @extend .wireframe-100;
-  height: 25vh;
-}
-#contact-us {
-  @extend .wireframe-100;
-  height: 23vh;
-}
-#techstars {
-  @extend .wireframe-100;
-  height: 17vh;
-}
-
-.home-pic {
-  width: 100%;
-}

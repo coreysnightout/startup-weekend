@@ -1,0 +1,81 @@
+#navbar{
+  border: 1px dotted black;
+  width: 100%;
+  height: 70px;
+}
+
+.sw-logo {
+  float: left;
+  margin: 10px;
+  width: 250px;
+}
+
+#footer {
+  @extend .wireframe-100;
+  height: 3vh;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+#learn-network {
+  @extend .wireframe-100;
+  background-image: url(../img/sw-hero-home.png);
+  & p {
+    color: white;
+  }
+  padding: 4%;
+}
+
+#event-finder {
+  @extend .wireframe-100;
+  height: 17.5vh;
+}
+
+#intro-panels {
+  @extend .wireframe-100;
+  height: 150vh;
+}
+#schedule {
+  @extend .wireframe-100;
+  height: 200vh;
+}
+#get-started {
+  @extend .wireframe-100;
+  height: 20vh;
+}
+#attendee-faq {
+  @extend .wireframe-100;
+  height: 100vh;
+}
+#notable-startups {
+  @extend .wireframe-100;
+  height: 50vh;
+}
+#startup-weekend {
+  @extend .wireframe-100;
+  height: 70vh;
+}
+#current-location {
+  @extend .wireframe-100;
+  height: 20vh;
+}
+#partners {
+  @extend .wireframe-100;
+  height: 25vh;
+}
+#contact-us {
+  @extend .wireframe-100;
+  height: 23vh;
+}
+#techstars {
+  @extend .wireframe-100;
+  height: 17vh;
+}
+
+.home-head {
+  color: white;
+  font-weight: bold;
+}
