@@ -3,6 +3,12 @@
   width: 100%;
   height: 70px; }
 
+#navbar button {
+  border: none; }
+
+.icon-bar {
+  color: #3ccf80; }
+
 .sw-logo {
   float: left;
   margin: 10px;
@@ -17,15 +23,57 @@
 
 #learn-network {
   background-image: url(../img/sw-hero-home.png);
-  padding: 4%; }
+  background-repeat: no-repeat;
+  padding: 6%;
+  padding-bottom: 25%; }
   #learn-network p {
-    color: white; }
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.4; }
 
 #event-finder {
-  height: 17.5vh; }
+  height: 17.5vh;
+  background-color: #3ccf80; }
+  #event-finder h2 {
+    text-align: center;
+    color: white; }
+  #event-finder .form-group {
+    margin: 7% 5%; }
+  #event-finder .top-label {
+    background-color: #3ccf80;
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 5vh; }
+
+.home-head {
+  color: white;
+  font-weight: bold; }
+
+.form-group {
+  width: 60%; }
+
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 20px; }
 
 #intro-panels {
   height: 150vh; }
+  #intro-panels h3 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 4% 4%;
+    line-height: 1.2;
+    padding-top: 7%;
+    font-size: 26px; }
+  #intro-panels p {
+    margin: 4% 4%;
+    line-height: 1.6;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%; }
 
 #schedule {
   height: 200vh; }
@@ -54,10 +102,6 @@
 #techstars {
   height: 17vh; }
 
-.home-head {
-  color: white;
-  font-weight: bold; }
-
 *,
 *::before,
 *::after {
@@ -68,5 +112,13 @@
 .wireframe-100, #footer, #learn-network, #event-finder, #intro-panels, #schedule, #get-started, #attendee-faq, #notable-startups, #startup-weekend, #current-location, #partners, #contact-us, #techstars {
   border: 1px dotted black;
   width: 100%; }
+
+button#top-btn {
+  background-color: white;
+  color: #3ccf80;
+  width: 20%;
+  height: 25%;
+  float: right;
+  margin: 6% 5%; }
 
 /*# sourceMappingURL=output.css.map */
