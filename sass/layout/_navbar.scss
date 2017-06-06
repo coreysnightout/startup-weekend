@@ -1,0 +1,16 @@
+#navbar{
+  border: 1px dotted black;
+  width: 100%;
+  height: 70px;
+}
+
+.sw-logo {
+  float: left;
+  margin: 10px;
+  width: 250px;
+}
+
+#footer {
+  @extend .wireframe-100;
+  height: 3vh;
+}

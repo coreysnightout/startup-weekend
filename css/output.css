@@ -1,0 +1,65 @@
+#navbar {
+  border: 1px dotted black;
+  width: 100%;
+  height: 70px; }
+
+.sw-logo {
+  float: left;
+  margin: 10px;
+  width: 250px; }
+
+#footer {
+  height: 3vh; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wireframe-100, #footer, #learn-network, #event-finder, #intro-panels, #schedule, #get-started, #attendee-faq, #notable-startups, #startup-weekend, #current-location, #partners, #contact-us, #techstars {
+  border: 1px dotted black;
+  width: 100%; }
+
+.container {
+  padding: 0;
+  margin: 0; }
+
+#learn-network {
+  height: 32.5vh; }
+
+#event-finder {
+  height: 17.5vh; }
+
+#intro-panels {
+  height: 150vh; }
+
+#schedule {
+  height: 200vh; }
+
+#get-started {
+  height: 20vh; }
+
+#attendee-faq {
+  height: 100vh; }
+
+#notable-startups {
+  height: 50vh; }
+
+#startup-weekend {
+  height: 70vh; }
+
+#current-location {
+  height: 20vh; }
+
+#partners {
+  height: 25vh; }
+
+#contact-us {
+  height: 23vh; }
+
+#techstars {
+  height: 17vh; }
+
+/*# sourceMappingURL=output.css.map */
