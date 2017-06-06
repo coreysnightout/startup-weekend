@@ -1,0 +1,12 @@
+#learn-network {
+  @extend .wireframe-100;
+  background-image: url(../img/sw-hero-home.png);
+  background-repeat: no-repeat;
+  & p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+  padding: 6%;
+  padding-bottom: 25%;
+}

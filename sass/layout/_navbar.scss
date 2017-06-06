@@ -1,0 +1,21 @@
+$color1: #3ccf80;
+
+
+.sw-logo {
+  float: left;
+  margin: 10px;
+  width: 250px;
+}
+
+#navbar{
+  border: 1px dotted black;
+  width: 100%;
+  height: 70px;
+}
+
+#navbar button {
+  border: none;
+}
+.icon-bar {
+  color: $color1;
+}
