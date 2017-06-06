@@ -26,9 +26,6 @@
   padding: 0;
   margin: 0; }
 
-#learn-network {
-  height: 32.5vh; }
-
 #event-finder {
   height: 17.5vh; }
 
@@ -61,5 +58,8 @@
 
 #techstars {
   height: 17vh; }
+
+.home-pic {
+  width: 100%; }
 
 /*# sourceMappingURL=output.css.map */

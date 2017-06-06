@@ -16,7 +16,7 @@
 
 #learn-network {
   @extend .wireframe-100;
-  height: 32.5vh;
+
 }
 
 #event-finder {
@@ -63,4 +63,8 @@
 #techstars {
   @extend .wireframe-100;
   height: 17vh;
+}
+
+.home-pic {
+  width: 100%;
 }
